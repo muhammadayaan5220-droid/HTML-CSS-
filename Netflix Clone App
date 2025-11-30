@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Netflix Clone — HTML & CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header class="site-header">
+      <div class="logo">NetfliX</div>
+      <nav class="main-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">TV Shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">Latest</a>
+        <a href="#" class="nav-link">My List</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn">🔍</button>
+        <button class="signin">Sign In</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" style="background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1517604931442-2f1a3a70b3aa?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&s=7de1d2209f67d8e04bc4b2f3972b6d64');">
+        <div class="hero-content">
+          <h1 class="title">Featured Thriller</h1>
+          <p class="desc">A bold, suspenseful story. Stream now.</p>
+          <div class="hero-actions">
+            <button class="play">► Play</button>
+            <button class="more">ℹ More Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2 class="row-title">Trending Now</h2>
+        <div class="row-posters">
+          <figure class="poster"><img src="https://picsum.photos/seed/p1/300/450" alt="Poster 1"><figcaption>Movie 1</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/p2/300/450" alt="Poster 2"><figcaption>Movie 2</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/p3/300/450" alt="Poster 3"><figcaption>Movie 3</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/p4/300/450" alt="Poster 4"><figcaption>Movie 4</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/p5/300/450" alt="Poster 5"><figcaption>Movie 5</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/p6/300/450" alt="Poster 6"><figcaption>Movie 6</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2 class="row-title">Because you watched Sci‑Fi</h2>
+        <div class="row-posters">
+          <figure class="poster"><img src="https://picsum.photos/seed/s1/300/450" alt="Poster A"><figcaption>Sci‑Fi 1</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/s2/300/450" alt="Poster B"><figcaption>Sci‑Fi 2</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/s3/300/450" alt="Poster C"><figcaption>Sci‑Fi 3</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/s4/300/450" alt="Poster D"><figcaption>Sci‑Fi 4</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/s5/300/450" alt="Poster E"><figcaption>Sci‑Fi 5</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="row">
+        <h2 class="row-title">Top Picks</h2>
+        <div class="row-posters">
+          <figure class="poster"><img src="https://picsum.photos/seed/t1/300/450" alt="Poster X"><figcaption>Top 1</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/t2/300/450" alt="Poster Y"><figcaption>Top 2</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/t3/300/450" alt="Poster Z"><figcaption>Top 3</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/t4/300/450" alt="Poster W"><figcaption>Top 4</figcaption></figure>
+          <figure class="poster"><img src="https://picsum.photos/seed/t5/300/450" alt="Poster V"><figcaption>Top 5</figcaption></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>This is a UI demo built with HTML & CSS only — not affiliated with Netflix.</p>
+    </footer>
+  </div>
+</body>
+</html>
